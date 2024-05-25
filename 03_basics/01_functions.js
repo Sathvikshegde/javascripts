@@ -35,3 +35,31 @@ function userLoggedIn(username)
         return `${username} just logged in`;
 }
 console.log(userLoggedIn("hitesh"));
+
+
+function calCart(...num1)
+{
+    return num1;
+}
+console.log(calCart(10,20,30,40));
+
+
+const  user={
+    username:"hitesh",
+    price:399
+}
+
+function create(anyobject)
+{
+    console.log(`user name is ${anyobject.username}`)
+}
+create(user)
+
+
+const myArr=[1,2,3,4]
+
+function anyArr(getArray)
+{
+    return getArray[1];
+}
+console.log(anyArr(myArr))
