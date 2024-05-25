@@ -36,3 +36,6 @@ const myfun=function()
 console.log(typeof myfun)
 console.log (typeof myObj)
 console.log (typeof heros)
+
+
+

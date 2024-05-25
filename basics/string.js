@@ -24,8 +24,8 @@ console.log(newstringone.trim())
 
 const url="https://hitesh.com/hitesh%20choudhary"
 
-console.log(url.replace('%20','-'))
+console.log(url.replace('%2','-'))
 console.log(url.includes('sundar'))
 
-const game=new String('hitesh-hc-com')
+const game=new String("hitesh-hc-com")
 console.log(game.split('-'));
