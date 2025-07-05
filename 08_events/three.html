@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur javascript</h1>
+     <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+
+<script>
+   const prons = function(){
+    console.log("Hitesh");
+   }
+
+   let deepak;
+   document.querySelector('#start').addEventListener('click',function(){
+    if(!deepak){
+    deepak =   setInterval(prons,1000);
+    }
+   });
+
+   document.querySelector('#stop').addEventListener('click',function(){
+    clearInterval(deepak);
+    deepak=null;
+   });
+</script>
+</html>
