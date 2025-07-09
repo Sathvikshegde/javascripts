@@ -27,4 +27,4 @@ const Tea = new User("Tea")
 Tea.logme()
 
 
-console.log(chai instanceof User);
+console.log(Tea instanceof Teacher);
